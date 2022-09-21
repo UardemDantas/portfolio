@@ -39,7 +39,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-image: url(../src/assets/estelar.jpg);
 }
 
 /* ------------ESTILOS GERAIS --------- */
@@ -109,6 +109,7 @@ a:hover {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
+    align-content: right;
 }
 
 img {

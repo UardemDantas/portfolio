@@ -54,6 +54,8 @@ input,textarea {
     color: var(--color-white);
 }
 
+
+
 /* -------------- For 1024px (Medium Devices) -------- */
 
 @media screen and (max-width: 1024px) {

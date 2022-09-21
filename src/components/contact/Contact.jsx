@@ -29,8 +29,8 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Entrar em Contato</h5>
+      <h2>Fale comigo</h2>
 
       <div className="container contact_container">
         <div className="contact_options">
@@ -66,7 +66,7 @@ const Contact = () => {
             required
           />
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Enviar menssagem
           </button>
         </form>
       </div>
