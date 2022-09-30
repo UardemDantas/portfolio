@@ -4,9 +4,13 @@ import { MdOutlineMail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import { useState } from "react";
 
 const Contact = () => {
   const form = useRef();
+  const [name, setNome] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -20,6 +24,9 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setNome('');
+          setEmail('');
+          setMessage('');
         },
         (error) => {
           console.log(error.text);
@@ -51,22 +58,39 @@ const Contact = () => {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} >
           <input
+            onChange={(e) => {
+              setNome(e.target.value);
+            }}
+            value={name}
             type="text"
             name="name"
             placeholder="Your Full Name"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input 
+          onChange={
+            (e) => {
+              setEmail(e.target.value)
+            }}
+          value={email}
+          type="email" 
+          name="email" 
+          placeholder="Your Email" required />
           <textarea
+          onChange={
+            (e) => {
+              setMessage(e.target.value)
+            }}
+            value={message}
             name="message"
             rows="7"
             placeholder="Your Message"
             required
           />
           <button type="submit" className="btn btn-primary">
-            Enviar menssagem
+            Enviar Menssagem
           </button>
         </form>
       </div>
