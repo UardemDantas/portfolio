@@ -5,6 +5,9 @@
 }
 
 .portfolio_item {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     background-color: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;

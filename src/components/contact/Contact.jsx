@@ -24,9 +24,9 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setNome('');
-          setEmail('');
-          setMessage('');
+          setNome("");
+          setEmail("");
+          setMessage("");
         },
         (error) => {
           console.log(error.text);
@@ -58,7 +58,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail} >
+        <form ref={form} onSubmit={sendEmail}>
           <input
             onChange={(e) => {
               setNome(e.target.value);
@@ -69,19 +69,19 @@ const Contact = () => {
             placeholder="Your Full Name"
             required
           />
-          <input 
-          onChange={
-            (e) => {
-              setEmail(e.target.value)
+          <input
+            onChange={(e) => {
+              setEmail(e.target.value);
             }}
-          value={email}
-          type="email" 
-          name="email" 
-          placeholder="Your Email" required />
+            value={email}
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
           <textarea
-          onChange={
-            (e) => {
-              setMessage(e.target.value)
+            onChange={(e) => {
+              setMessage(e.target.value);
             }}
             value={message}
             name="message"
@@ -89,7 +89,7 @@ const Contact = () => {
             placeholder="Your Message"
             required
           />
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary btn-submit">
             Enviar Menssagem
           </button>
         </form>

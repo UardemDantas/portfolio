@@ -1,55 +1,17 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/alura-project.png";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+
 
 const data = [
   {
     id: 1,
     image:IMG1,
-    title: "Organograma - Alura - Project",
+    title: "Organograma",
     github: "https://github.com/UardemDantas/organograma-alura",
     demo: "https://organograma-alura.vercel.app/",
   },
-  {
-    id: 2,
-    image: "",
-    title: "",
-    github: "https://github.com",
-    demo: "",
-  },
-  {
-    id: 3,
-    image: "",
-    title: "",
-    github: "https://github.com",
-    demo: "",
-  },
-  {
-    id: 4,
-    image: "",
-    title: "",
-    github: "https://github.com",
-    demo: "",
-  },
-  {
-    id: 5,
-    image: "",
-    title: "",
-    github: "https://github.com",
-    demo: "",
-  },
-  {
-    id: 6,
-    image: "",
-    title: "",
-    github: "https://github.com",
-    demo: "",
-  },
+
 ];
 
 const Portfolio = () => {
