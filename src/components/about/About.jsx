@@ -21,9 +21,9 @@ const About = () => {
             <article className="about_card">
               <TbAwardOff className="about_icon" />
               <h5>Experiencia</h5>
-              <small>Nao possuo experiencia ainda.</small>
+              <small>Desenvolvimento de pouco projetos.</small>
             </article>
-
+      
             <article className="about_card">
               <AiOutlineFolderOpen className="about_icon" />
               <h5>Projetos</h5>
