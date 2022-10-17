@@ -1,9 +1,17 @@
 import React from "react";
-import "./portfolio.css";
 import IMG1 from "../../assets/alura-project.png";
+import IMG2 from "../../assets/uardemzon.png";
+import "./portfolio.css";
 
 
 const data = [
+  {
+    id: 2,
+    image:IMG2,
+    title: "UardemZon",
+    github: "https://github.com/UardemDantas/uardemzon",
+    demo: "https://uardemzon.vercel.app/",
+  },
   {
     id: 1,
     image:IMG1,
@@ -11,7 +19,7 @@ const data = [
     github: "https://github.com/UardemDantas/organograma-alura",
     demo: "https://organograma-alura.vercel.app/",
   },
-
+  
 ];
 
 const Portfolio = () => {

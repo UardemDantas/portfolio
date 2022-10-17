@@ -1,7 +1,7 @@
 import React from "react";
-import "./about.css";
 import { TbAwardOff } from "react-icons/tb";
 import { AiOutlineFolderOpen } from "react-icons/ai";
+import "./about.css";
 
 const About = () => {
   return (

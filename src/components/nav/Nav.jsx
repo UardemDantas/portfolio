@@ -1,11 +1,11 @@
 import React from "react";
-import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { AiOutlineMessage } from "react-icons/ai";
 import { HiOutlineFolderOpen } from "react-icons/hi";
 import { useState } from "react";
+import "./nav.css";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
