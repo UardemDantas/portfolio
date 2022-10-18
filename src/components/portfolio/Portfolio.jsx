@@ -1,6 +1,7 @@
 import React from "react";
 import IMG1 from "../../assets/alura-project.png";
 import IMG2 from "../../assets/uardemzon.png";
+import IMG3 from '../../assets/tmdb.png'
 import "./portfolio.css";
 
 
@@ -11,6 +12,13 @@ const data = [
     title: "UardemZon",
     github: "https://github.com/UardemDantas/uardemzon",
     demo: "https://uardemzon.vercel.app/",
+  },
+  {
+    id: 3,
+    image:IMG3,
+    title: "TmdbClone",
+    github: "https://github.com/UardemDantas/apiconsumertmdb",
+    demo: "https://tmdbapiconsumer.vercel.app/",
   },
   {
     id: 1,
