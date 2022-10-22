@@ -2,6 +2,7 @@ import React from "react";
 import IMG1 from "../../assets/alura-project.png";
 import IMG2 from "../../assets/uardemzon.png";
 import IMG3 from '../../assets/tmdb.png'
+import IMG4 from '../../assets/uardemflix.png'
 import "./portfolio.css";
 
 
@@ -12,6 +13,13 @@ const data = [
     title: "UardemZon",
     github: "https://github.com/UardemDantas/uardemzon",
     demo: "https://uardemzon.vercel.app/",
+  },
+  {
+    id: 4,
+    image:IMG4,
+    title: "UardemFlix",
+    github: "https://github.com/UardemDantas/netflixclone",
+    demo: "https://uardemflix.vercel.app/",
   },
   {
     id: 3,
