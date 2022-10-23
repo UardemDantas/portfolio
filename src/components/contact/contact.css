@@ -62,6 +62,14 @@ input,textarea {
     font-weight: 700 !important;
 }
 
+.scroll_up {
+    position: absolute;
+    right: -11.2rem;
+    bottom: 1rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 1rem;
+}
 
 
 /* -------------- For 1024px (Medium Devices) -------- */

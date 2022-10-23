@@ -94,6 +94,7 @@ const Contact = () => {
             Enviar Menssagem
           </button>
         </form>
+        <a href="#" className="scroll_up">Scroll Up</a>
       </div>
     </section>
   );
