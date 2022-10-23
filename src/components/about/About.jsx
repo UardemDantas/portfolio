@@ -32,12 +32,11 @@ const About = () => {
           </div>
           <p className="about_me-text">
             Olá, me chamo Uardem, tenho 22 anos, sou uma pessoa que é apaixonada
-            por tecnologia. Comecei usar o computador aos meus 7 anos e não
-            parei desde então. Atualmente não possuo experiência no mercado de
-            trabalho de programação mas estou cursando uma faculdade voltada
-            para área de tecnologia. Comecei a aprender programação no inicio
+            por tecnologia. Comecei a usar o computador aos meus 7 anos e não
+            parei desde então. Comecei a aprender programação no início
             desse ano de 2022 e desde lá estou estudando para poder me
-            aperfeiçoar. Gosto de trabalhar em equipe, de me arriscar, possuo uma
+            aperfeiçoar. Atualmente não possuo experiência no mercado de
+            trabalho de programação e estou a procura de oportunidades para demonstrar minhas habilidades adquiridas ao longo desse aprendizado. Gosto de trabalhar em equipe, de me arriscar, possuo uma
             boa oratória e gosto de conhecer pessoas novas.
           </p>
           <a href="#contact" className="btn btn-primary" data-aos="zoom-in">

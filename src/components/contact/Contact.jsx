@@ -1,9 +1,9 @@
 import React from "react";
+import { useRef, useState } from "react";
+import emailjs from "emailjs-com";
 import { MdOutlineMail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
-import { useRef } from "react";
-import emailjs from "emailjs-com";
-import { useState } from "react";
+
 
 import "./contact.css";
 

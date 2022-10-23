@@ -13,7 +13,5 @@ This project was made with:
   ⚛️ React Hooks
 
   💋 Sass
-  
-  ☁️ API consumption
 
 <br>
