@@ -3,6 +3,9 @@ import IMG1 from "../../assets/alura-project.png";
 import IMG2 from "../../assets/uardemzon.png";
 import IMG3 from '../../assets/tmdb.png'
 import IMG4 from '../../assets/uardemflix.png'
+
+
+
 import "./portfolio.css";
 
 
@@ -41,10 +44,10 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>Meus trabalhos recentes</h5>
-      <h2>Portifolio</h2>
+      <h5>Meus projetos recentes</h5>
+      <h2>Portfolio</h2>
 
-      <div className="container portfolio_container">
+      <div className="container portfolio_container" data-aos="fade-up">
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio_item">
@@ -53,10 +56,10 @@ const Portfolio = () => {
               </div>
               <h3> {title} </h3>
               <div className="portfolio_item-cta">
-                <a href={github} className="btn">
+                <a href={github} className="btn" target='_blank'>
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a href={demo} className="btn btn-primary" target='_blank'>
                   Live Demo
                 </a>
               </div>

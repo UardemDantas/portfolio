@@ -4,6 +4,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { useState } from "react";
+
 import "./contact.css";
 
 const Contact = () => {
@@ -39,13 +40,13 @@ const Contact = () => {
       <h5>Entrar em Contato</h5>
       <h2>Fale comigo</h2>
 
-      <div className="container contact_container">
+      <div className="container contact_container" data-aos="zoom-in">
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineMail className="contact_option-icon" />
-            <h4>Email</h4>
+            <h4>E-mail</h4>
             <h5>uardemj12@gmail.com</h5>
-            <a href="mailto:uardemj12@gmail.com">Send a message</a>
+            <a href="mailto:uardemj12@gmail.com">Enviar mensagem</a>
           </article>
 
           <article className="contact_option">
@@ -53,7 +54,7 @@ const Contact = () => {
             <h4>WhatsApp</h4>
             <h5>73 9 98530118</h5>
             <a href=" https://wa.me/557398530118" target="_blank">
-              Send a message
+              Enviar mensagem
             </a>
           </article>
         </div>
@@ -89,7 +90,7 @@ const Contact = () => {
             placeholder="Your Message"
             required
           />
-          <button type="submit" className="btn btn-primary btn-submit">
+          <button type="submit" className="btn btn-primary btn-submit" data-aos="zoom-in">
             Enviar Menssagem
           </button>
         </form>

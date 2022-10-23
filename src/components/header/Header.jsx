@@ -2,6 +2,9 @@ import React from "react";
 import ME from "../../assets/meheader.png";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
+
+
+
 import "./header.css";
 
 const Header = () => {
@@ -13,8 +16,9 @@ const Header = () => {
         <h5 className="text-light">Front-End Developer</h5>
         <CTA />
           <HeaderSocials/>
+
         <div className="me">
-          <img src={ME} alt = "me"/>
+          <img src={ME} alt ="me"/>
         </div>
         <a href="#contact" className="scroll_down">Scroll Down</a>
       </div>

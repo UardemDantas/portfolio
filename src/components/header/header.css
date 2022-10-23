@@ -31,9 +31,9 @@ header {
     bottom: 3rem;
 }
 
-.header_socials:after {
+.header_socials::after {
     content: '';
-    width: 1px;
+    width: 2px;
     height: 2rem;
     background: var(--color-primary);
 }
@@ -68,7 +68,6 @@ header {
 @media screen and (max-width: 1024px){
     header {
         height: 68vh;
-
     }
 }
 
@@ -78,7 +77,8 @@ header {
     header {
         height: 100vh;
     }
-    header_socials,.scroll_down{
+    .header_socials,
+    .scroll_down {
         display: none;
     }
 }
